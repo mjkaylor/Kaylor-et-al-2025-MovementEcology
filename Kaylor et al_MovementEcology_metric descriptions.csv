@@ -1,0 +1,72 @@
+dataset,file,column_name,description
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,stream,Name of the stream adult carcass was sampled from. MFJD = Middle Fork John Day River.
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,genid_adult,The unique ID of each adult that is used for offspring-adult assignments.
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,sex_adult,The genetically-determined sex of each adult.
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,date_sampled,Date adult/carcass was sampled
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,meps_length_mm,Length of adult (mm) measured as Mid-Eye to Postier Scale (MEPS)
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,carc_quality,"Visually assessed categorical carcass quality. 1 = red gills, firm flesh; 2 = pink gills, firm flesh; 3 = white gills, firm flesh; 4 = white gills, soft/mushy flesh"
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,updist_adult_ms,Distance upstream (m) on the mainstem MFJD from the confluence with the North Fork John Day River
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,rkm_adult,River kilometer on the mainstem MFJD from the confluence with the North Fork John Day River. 
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,utm_zone,UTM zone for xy coordinates
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,utm_x_adult,UTM x-coordinate of adult
+2020 adults,Kaylor et al_MovementEcology_2020 adult data,utm_y_adult,UTM y-coordinate of adult
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,stream,The stream name each parr was captured from
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,stream_type,Categorical variable indicating whether stream was the mainstem or a tributary
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,date_sampled,Date each parr was sampled on
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,genid_parr,The unique ID of each parr that is used for offspring-adult assignments.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,paired_to_female,Variable indicating whether each parr was assigned to a female adult. Note that only individuals assigned to females were used in analyses
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,paired_to_male,Variable indicating whether each parr was assigned to a male adult. Note that individuals assigned to males were not used in analyses
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,fork_length_mm,Fork length (mm) of each parr
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,mass_g,Mass (g) of each parr
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,updist_parr_ms,Mainstem distance upstream (m) of parr capture location measured from the confluence with the North Fork John Day River
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,updist_parr_trib,Tributary distance upstream (m) of parr capture location measured  from tributary mouth.Only applies to parr captured in tributaries.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,rkm_parr,"Mainstem river kilometer of capture location measured from the confluence with the North Fork John Day River. For parr captured in tributaries, rkm_parr is the river kilometer of the tributary mouth."
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,model_weight,Model weights used to adjust for sampling bias. Used as the weights argument in all models.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,utm_zone,UTM zone for xy coordinates
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,utm_x_parr,UTM x-coordinate of parr
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,utm_y_parr,UTM y-coordinate of parr
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,genid_adult,The unique ID of the adult that individual parr were assigned to.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,sex_adult,The genetically-determined sex of the adult that individual parr were assigned to.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,updist_adult_ms,Mainstem distance upstream (m) of the adult individual parr were assigned. Used to calculate dispersal distance.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,rkm_adult,Mainstem river kilometer of adult location measured from the confluence with the North Fork John Day River.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,disp_ms,Dispersal distance (m) within the mainstem. Negative values indicate downstream dispersal within the mainstem. Calculated using updist_adult_ms and updist_parr_ms.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,disp_trib,Dispersal distance (m) within tributaries. Zero if parr were captured from mainstem. This is the same as updist_parr_trib.
+2021 parr,Kaylor et al_MovementEcology_2021 parr data,disp_tot,"Total dispersal distance (m) within mainstem and tributaries. If parr moved downstream, disp_trib is subtracted. If parr moved upstream, disp_trib is added. "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,stream,The stream name the survey was conducted in.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,stream_reach,"Reach number within each stream, labeled sequentially moving upstream from the farthest downstream reach (i.e., stream_reach = 1)"
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,site_cat,"Indicator for whether the reach was surveyed to estimate abundance (obs) or not surveyed (pred). Snorkel or electrofishing counts were used to predict abundance in ""obs"" reaches. Abundance was predicted for ""pred"" reaches using linear interpolation of estimated abundances at ""obs"" reaches."
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,survey_date,Date of snorkel or electrofishing survey used to estimate abundance at that reach.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,survey_method,Categorical variable indicating whether snorkel surveys or electrofishing captures were used to estimate abundance
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,ch_parr_observed,Count of Chinook Salmon parr observed within reach.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,length_m_tot,Length of reach in meters.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,updist_bos,Mainstem or tributary distance upstream (m) to the downstream end of reach (bos = bottom of site)
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,updist_tos,Mainstem or tributary distance upstream (m) to the upstream end of reach (tos = top of site)
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_mean,Mean estimated Chinook Salmon parr abundance within reach.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_sd,Standard deviation of estimated Chinook Salmon parr abundance within reach.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_2.5,"The 2.5 percentile of estimated Chinook Salmon parr abundance within reach (i.e., 97.5% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_5,"The 5th percentile of estimated Chinook Salmon parr abundance within reach (i.e., 95% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_10,"The 10th percentile of estimated Chinook Salmon parr abundance within reach (i.e., 90% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_25,"The 25th percentile of estimated Chinook Salmon parr abundance within reach (i.e., 75% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_50,"The 50th percentile (i.e., median) of estimated Chinook Salmon parr abundance within reach (i.e., 50% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_75,"The 75th percentile of estimated Chinook Salmon parr abundance within reach (i.e., 25% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_90,"The 90th percentile of estimated Chinook Salmon parr abundance within reach (i.e., 10% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_95,"The 95th percentile of estimated Chinook Salmon parr abundance within reach (i.e., 5% of simulated abundances were greater) . "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,n_ch_est_97.5,"The 97.5 percentile of estimated Chinook Salmon parr abundance within reach (i.e., 2.5% of simulated abundances were greater). "
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,utm_zone,UTM zone for xy coordinates.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,utm_x_reach,UTM x-coordinate for mid-point of reach.
+2021 abundance estimates,Kaylor et al_MovementEcology_2021 abundance estimates,utm_y_reach,UTM y-coordinate for mid-point of reach.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,stream,The stream name for the logger location.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,site,Site name for each logger
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,rkm,"Mainstem river kilometer of logger location measured from the confluence with the North Fork John Day River. Note that for loggers withing tributaries, the rkm value is for the tributary mouth rather than distance upstream within the tributary."
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,date,Date for each temperature value.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,year,Year
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,month,Month
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,doy,Julian day of the year/
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,temp_mean_day,Mean daily temperature calculated from all temperature measurements on that day.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,temp_max_day,Maximum daily temperature calculated from all temperature measurements on that day.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,temp_min_day,Minimum daily temperature calculated from all temperature measurements on that day.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,temp_range_day,Daily temperature range (max-min) calculated from all temperature measurements on that day.
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,temp_n_meas_day,"Number of daily temperature measurements used to calculate, mean, max, min and range after QA/QC."
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,utm_zone,UTM zone for xy coordinates
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,utm_x_logger,UTM x-coordinate of logger
+2020-2021 temperature,Kaylor et al_MovementEcology_2020-2021 daily temperature,utm_y_logger,UTM y-coordinate of logger
